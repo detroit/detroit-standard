@@ -1,0 +1,11 @@
+.rdoc
+.redcar
+.yardoc
+doc/
+log/
+pkg/
+web/
+work/TRASH
+work/sandbox
+QED.md
+*.gem

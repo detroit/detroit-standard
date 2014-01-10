@@ -1,0 +1,2 @@
+Detroit Standard simply defines the standard toolchain. If should be a
+dependency of all Detroit tool plug-ins that support the standard toolchain.

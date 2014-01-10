@@ -1,0 +1,50 @@
+---
+revision: 2013
+type: ruby
+sources:
+- var
+authors:
+- name: Trans
+  email: transfire@gmail.com
+organizations:
+- name: Rubyworks
+requirements:
+- name: detroit
+conflicts: []
+alternatives: []
+resources:
+- type: home
+  uri: http://rubyworks.github.com/detroit-standard
+  label: Homepage
+- type: code
+  uri: http://github.com/rubyworks/detroit-standard
+  label: Source Code
+- type: bugs
+  uri: http://github.com/rubyworks/detroit-standard/issues
+  label: Issue Tracker
+- type: mail
+  uri: http://groups.google.com/rubyworks-mailinglist
+  label: Mailing List
+repositories:
+- name: upstream
+  scm: git
+  uri: git@github.com:detroit/detroit-standard.git
+categories: []
+copyrights:
+- holder: Rubyworks
+  year: '2011'
+  license: GPL-3.0
+customs: []
+paths:
+  lib:
+  - lib
+name: detroit-standard
+title: Detroit Standard
+summary: Detroit Standard Toolchain
+created: '2007-10-10'
+description: |-
+  Detroit Standard simply defines the standard toolchain. If should be a
+  dependency of all Detroit tool plug-ins that support the standard toolchain.
+suite: detroit
+version: 0.1.1
+date: '2014-01-10'
