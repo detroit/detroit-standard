@@ -1,4 +1,4 @@
-# Detroit Standard Toolchain
+# Detroit Standard Assembly
 
 [Website](http://rubyworks.github.com/detroit-standard) /
 [Report Issue](http://github.com/rubyworks/detroit-standard/issues) /
@@ -11,10 +11,10 @@
 
 ## About
 
-This is a very simple project that defines the standard toolchain
-that standard detroit tools utilize. The standard toolchain was designed
-to be useful for typical software  development project. It consists of the
-following main line:
+This is a very simple project that defines the *Standard Assembly*
+that standard detroit tools utilize. The standard assembly was designed
+for typical software development projects. It consists of the following 
+main line:
 
   * prepare     - prepare services / ensure service requirements
   * generate    - code generation
@@ -39,20 +39,18 @@ And a maintainence line:
 
 ## Install
 
-Generally you do not have to install this library directory, as all tools
-dependent upon it will do so when they are installed. But of course you 
-can still do so.
+Generally you do not have to install this library directly, as all tools
+that dependent upon it will do so when they are installed. But of course
+you can still do so if you wish.
 
 ### With RubyGems
 
     $ gem install detroit-standard
 
 
-## Legal
+## Copyrights
 
-Detroit Standard
-
-Copyright (c) 2011 Rubyworks
+Detroit Standard &middot; Copyright (c) 2011 Rubyworks
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
