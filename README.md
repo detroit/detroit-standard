@@ -16,25 +16,25 @@ that standard detroit tools utilize. The standard assembly was designed
 for typical software development projects. It consists of the following 
 main line:
 
-  * prepare     - prepare services / ensure service requirements
-  * generate    - code generation
-  * compile     - compile source code
-  * test        - run tests and specifications
-  * analyze     - perform code analysis
-  * document    - generate documentation
-  * package     - create packages
-  * install     - install the package locally (if need be)
-  * verify      - post package verification / integration tests
-  * publish     - publish website/documentation
-  * release     - release packages
-  * deploy      - deploy system to servers
-  * promote     - tell the world about your awesome work
+  * `prepare`     - prepare services / ensure service requirements
+  * `generate`    - code generation
+  * `compile`     - compile source code
+  * `test`        - run tests and specifications
+  * `analyze`     - perform code analysis
+  * `document`    - generate documentation
+  * `package`     - create packages
+  * `install`     - install the package locally (if need be)
+  * `verify`      - post package verification / integration tests
+  * `publish`     - publish website/documentation
+  * `release`     - release packages
+  * `deploy`      - deploy system to servers
+  * `promote`     - tell the world about your awesome work
 
 And a maintainence line:
 
-  * reset       - mark all by products as out-of-date
-  * clean       - remove temporary by products
-  * purge       - remove all by products
+  * `reset`       - mark all by products as out-of-date
+  * `clean`       - remove temporary by products
+  * `purge`       - remove all by products
 
 
 ## Install
@@ -43,14 +43,14 @@ Generally you do not have to install this library directly, as all tools
 that dependent upon it will do so when they are installed. But of course
 you can still do so if you wish.
 
-### With RubyGems
+### with RubyGems
 
     $ gem install detroit-standard
 
 
 ## Copyrights
 
-Detroit Standard &middot; Copyright (c) 2011 Rubyworks
+Copyright (c) 2011 Rubyworks
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
