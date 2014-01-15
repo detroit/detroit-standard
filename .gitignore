@@ -1,3 +1,5 @@
+*.gem
+*.lock
 .rdoc
 .redcar
 .yardoc
@@ -7,5 +9,5 @@ pkg/
 web/
 work/TRASH
 work/sandbox
-QED.md
-*.gem
+DEMO.md
+

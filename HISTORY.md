@@ -1,15 +1,13 @@
 # RELEASE HISTORY
 
+## 0.4.0 / 2014-01-14
 
-## 0.1.1 / 2014-01-10
-
-This release simply updates the code to use the latest DSL
-method provided by Detroit for defining a toolchain. Nothing
-has changed that woudld effect end-usage.
+This release updates the code to use the latest DSL method provided by
+Detroit 0.4.0 for defining an assembly.
 
 Changes:
 
-* Use `toolchain` DSL method to define toolchain.
+* Use `assembly` DSL method to define an assembly.
 
 
 ## 0.1.0 / 2013-04-13

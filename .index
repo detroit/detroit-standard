@@ -9,7 +9,8 @@ authors:
 organizations:
 - name: Rubyworks
 requirements:
-- name: detroit
+- version: 0.4+
+  name: detroit
 conflicts: []
 alternatives: []
 resources:
@@ -46,5 +47,5 @@ description: |-
   Detroit Standard simply defines the standard toolchain. If should be a
   dependency of all Detroit tool plug-ins that support the standard toolchain.
 suite: detroit
-version: 0.1.1
-date: '2014-01-10'
+version: 0.4.0
+date: '2014-01-14'

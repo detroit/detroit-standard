@@ -1,0 +1,7 @@
+#!mast -x Gemfile.lock .index .ruby bin lib man qed test *.md *.txt
+.index
+lib/detroit/standard.rb
+lib/detroit-standard.rb
+README.md
+HISTORY.md
+LICENSE.txt

@@ -3,22 +3,22 @@ require 'detroit'
 module Detroit
 
   ##
-  # The standard toolchain models the workflow of tools typically used in 
+  # The standard assembly models the workflow of tools typically used in 
   # the building a software projects. Since that is the primary design goal
-  # of Detroit, it is consquently called the *standard* toolchain.
+  # of Detroit, it is consequently the *standard*.
   #
-  # A Toolchain instance is a module. To register a tool for use with the
-  # toolchain simply include it into the tool class.
+  # An instance of Assembly is a module. To register a tool for use with the
+  # assembly simply include it into the tool class.
   #
   # @example
   #   class Faux < Tool
   #     include Standard
   #     ...
   #
-  # @todo Not sure about the name `promote` for the last stage. Is there a 
-  #       better name? Perhaps `announce` or `market`?
+  # @todo Maybe `analyze` should come after `document` so documentation coverage
+  #       tools can make use of it?
   #
-  toolchain :Standard do
+  assembly :Standard do
 
     line :prepare,    # prepare services / ensure service requirements
          :generate,   # code generation
